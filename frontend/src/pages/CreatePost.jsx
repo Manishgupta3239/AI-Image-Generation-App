@@ -49,7 +49,7 @@ const CreatePost = () => {
         setGenerateImg(true);
 
         const maxRetries = 5; // Set the max number of retries
-        const retryDelay = 5000; // Start with a 5-second delay
+        let retryDelay = 5000; // Start with a 5-second delay
         let retries = 0;
 
         while (retries < maxRetries) {
