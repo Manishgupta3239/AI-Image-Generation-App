@@ -1,0 +1,11 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore Environment Variables
+.env
+
+# Ignore Build Folders
+frontend/node_modules/
+backend/node_modules/
+frontend/build/
+backend/dist/
